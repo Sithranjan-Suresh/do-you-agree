@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function TabsHome() {
+export default function Dashboard() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Tabs Home Screen</Text>
+      <Text style={styles.text}>Welcome 🎉</Text>
     </View>
   );
 }
@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   text: {
-    fontSize: 22,
+    fontSize: 32,
+    fontWeight: "bold",
   },
 });
